@@ -1,0 +1,4 @@
+{
+  "foo": "./components/Foo/index.js",
+  "bar": "./components/Bar/index.js"
+}
