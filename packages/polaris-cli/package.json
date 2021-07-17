@@ -1,6 +1,6 @@
 {
   "name": "polaris-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "开箱即用的vue脚手架工具",
   "bin": {
     "polaris": "./bin/index.js"
