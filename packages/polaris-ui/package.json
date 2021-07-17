@@ -7,7 +7,7 @@
   ],
   "author": "Yggdrasill-7C9 <polarisdu@outlook.com>",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/polaris-ui.js",
   "directories": {
     "lib": "lib",
