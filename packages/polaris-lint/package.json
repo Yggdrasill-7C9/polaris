@@ -1,6 +1,6 @@
 {
   "name": "polaris-lint",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "前端规约及配套工具",
   "keywords": [
     "eslint",
@@ -8,20 +8,20 @@
     "commitlint",
     "markdownlint"
   ],
-  "author": "polarisdu <fupeng_du@yunzhijia.com>",
+  "author": "polarisdu",
   "homepage": "https://github.com/Yggdrasill-7C9/polaris#readme",
   "license": "ISC",
-  "main": "lib/polaris-lint.js",
+  "bin": "src/cli.js",
+  "main": "src/index.js",
+  "type": "module",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
-  "publishConfig": {
-    "registry": "http://npm.yzjop.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yggdrasill-7C9/polaris.git"
@@ -31,5 +31,31 @@
   },
   "bugs": {
     "url": "https://github.com/Yggdrasill-7C9/polaris/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "command-exists": "^1.2.9",
+    "commander": "^8.3.0",
+    "cross-spawn": "^7.0.3",
+    "ejs": "^3.1.6",
+    "execa": "^6.0.0",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0",
+    "husky": "^7.0.4",
+    "inquirer": "^8.2.0",
+    "is-docker": "^3.0.0",
+    "lodash": "^4.17.21",
+    "markdownlint": "^0.25.0",
+    "ora": "^6.0.1",
+    "prettier": "^2.5.1",
+    "strip-ansi": "^7.0.1",
+    "stylelint": "^14.2.0",
+    "stylelint-scss": "^4.1.0",
+    "terminal-link": "^3.0.0",
+    "text-table": "^0.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "rollup": "^2.63.0"
   }
 }

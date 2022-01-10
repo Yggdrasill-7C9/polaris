@@ -1,27 +1,22 @@
 {
   "name": "markdownlint-config-polaris",
-  "version": "0.1.1",
-  "description": "markdownlint shareable configuration for polaris",
+  "version": "0.0.1",
+  "description": "markdownlint reusable configuration for polaris",
   "main": "index.json",
   "keywords": [
     "markdownlint",
-    "markdownlint-config",
-    "f2elint",
-    "Alibaba F2E Guidelines"
+    "markdownlint-config"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/f2e-spec"
+    "url": "https://github.com/Yggdrasill-7C9/polaris"
   },
   "bugs": {
-    "url": "https://github.com/alibaba/f2e-spec/issues"
+    "url": "https://github.com/Yggdrasill-7C9/polaris/issues"
   },
-  "homepage": "https://github.com/alibaba/f2e-spec",
-  "author": {
-    "name": "undead25",
-    "email": "shuanglong525@gmail.com"
-  },
-  "license": "MIT",
+  "homepage": "https://github.com/Yggdrasill-7C9/polaris",
+  "author": "polarisdu",
+  "license": "ISC",
   "peerDependencies": {
     "markdownlint": "^0.21.1"
   }

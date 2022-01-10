@@ -1,35 +1,24 @@
 {
-  "name": "stylelint-config-ali",
-  "version": "0.4.2",
-  "description": "stylelint shareable config for Alibaba F2E Guidelines",
+  "name": "stylelint-config-polaris",
+  "version": "0.0.1",
+  "description": "stylelint reusable config for polaris",
   "main": "index.js",
   "keywords": [
     "stylelint",
-    "stylelint-config",
-    "f2elint",
-    "Alibaba F2E Guidelines"
+    "stylelint-config"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/f2e-spec"
+    "url": "https://github.com/Yggdrasill-7C9/polaris"
   },
   "bugs": {
-    "url": "https://github.com/alibaba/f2e-spec/issues"
+    "url": "https://github.com/Yggdrasill-7C9/polaris/issues"
   },
-  "homepage": "https://github.com/alibaba/f2e-spec",
-  "author": {
-    "name": "Sabo",
-    "email": "bowei.jbw@gmail.com"
-  },
-  "contributors": [
-    {
-      "name": "Xat_MassacrE",
-      "email": "xxat.massacre@gmail.com"
-    }
-  ],
-  "license": "MIT",
+  "homepage": "https://github.com/Yggdrasill-7C9/polaris",
+  "author": "polarisdu",
+  "license": "ISC",
   "scripts": {
-    "test": "mocha ./test/*.test.js"
+    "test": "mocha ./__tests__/*.test.js"
   },
   "peerDependencies": {
     "stylelint": ">=8.3.0",
