@@ -1,11 +1,11 @@
-# `polaris-demo`
+# `polaris-lint`
 
 > TODO: description
 
 ## Usage
 
 ```
-const polarisDemo = require('polaris-demo');
+const polarisLint = require('polaris-lint');
 
 // TODO: DEMONSTRATE API
 ```
