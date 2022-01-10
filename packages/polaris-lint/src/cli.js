@@ -1,20 +1,19 @@
-#!/usr/bin/env node
-const path =  require('path');
-const fs = require('fs-extra');
-const { execSync } = require('child_process');
-const { program } = require('commander');
-const spawn from 'cross-spawn';
-const ora from 'ora';
-const glob from 'glob';
-const init from './actions/init';
-const update from './actions/update';
-const scan from './actions/scan';
-const printReport from './utils/print-report';
-const { getCommitFiles, getAmendFiles } from './utils/git';
-const generateTemplate from './utils/generate-template';
-const npmType from './utils/npm-type';
-const log from './utils/log';
-const { PKG_NAME, PKG_VERSION } from './utils/constants';
+import path from 'path';
+import fs from 'fs-extra';
+import { execSync } from 'child_process';
+import { program } from 'commander';
+import spawn from 'cross-spawn';
+import ora from 'ora';
+import glob from 'glob';
+import init from './actions/init';
+import update from './actions/update';
+import scan from './actions/scan';
+import printReport from './utils/print-report';
+import { getCommitFiles, getAmendFiles } from './utils/git';
+import generateTemplate from './utils/generate-template';
+import npmType from './utils/npm-type';
+import log from './utils/log';
+import { PKG_NAME, PKG_VERSION } from './utils/constants';
 
 const cwd = process.cwd();
 

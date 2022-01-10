@@ -7,8 +7,8 @@ const pkg = JSON.parse(
 );
 
 export const UNICODE = {
-  success = '\u2714', // ✔
-  failure = '\u2716', // ✖
+  success: '\u2714', // ✔
+  failure: '\u2716', // ✖
 }
 
 /**
